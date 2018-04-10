@@ -5,6 +5,10 @@ import (
 	"math"
 )
 
+/**
+同样 这个问题可以使用堆栈或者链表来解决
+*/
+
 func addTwoBinaryNums(nums1, nums2 []int) []int {
 	carray := 0
 	nums1Len := len(nums1)
