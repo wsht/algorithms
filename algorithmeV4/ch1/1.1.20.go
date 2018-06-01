@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -26,9 +25,9 @@ func myLn2(n int, sum []float64) float64 {
 	return myLn2(n-1, sum)
 }
 
-func main() {
-	sum := []float64{0}
-	fmt.Println(myLn2(10000000, sum))
-	fmt.Println(myLn(10000000))
+// func main() {
+// 	sum := []float64{0}
+// 	fmt.Println(myLn2(10000000, sum))
+// 	fmt.Println(myLn(10000000))
 
-}
+// }
